@@ -1,0 +1,122 @@
+/* start children home section */
+
+.children-home h2 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 27px;
+    margin-top: 33px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.children-home hr {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 70px;
+    height: 3px;
+    background-color: red;
+}
+
+.children-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.children-content img {
+    width: 36%;
+    margin-bottom: 70px;
+}
+
+.children-content p {
+    width: 40%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* end children home section */
+
+
+/* Start About home section */
+
+.about-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-content {
+    width: 35%;
+    margin-bottom: 50px;
+    border: 1px solid #0000006f;
+    padding: 25px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.about-content img {
+    width: 96%;
+    height: 350px;
+}
+
+.about-content p {
+    font-family: monospace;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+/* end About home section */
+
+
+/* start contact us home section */
+
+.contact-home {
+    height: 450px;
+    background-image: url(../img/contact\ us.gif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-home h2 {
+    color: #fff;
+    font-family: monospace;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.contact-home form {
+    width: 80%;
+}
+
+.contact-home input,
+.contact-home textarea {
+    width: 100%;
+    margin-bottom: 35px;
+    padding: 14px 20px;
+    font-size: 19px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact-home button {
+    display: block;
+    margin: auto;
+    background-color: #212121;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-family: monospace;
+    font-size: 21px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+}
+
+/* end contact us home section */
